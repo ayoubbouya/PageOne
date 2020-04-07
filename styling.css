@@ -1,0 +1,114 @@
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ 	font-family: " roboto" , "sans-serif";
+ }
+
+ body{
+ 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("lap.png");
+    background-position: center;
+    background-size: cover;
+ 	background-repeat: no-repeat;
+ 	height: 100vh;
+
+
+
+ }
+
+
+.container{
+	max-width: 1600px;
+}
+ header{
+ 	width: auto;
+ 	overflow: auto;
+ 	margin-top: 2%;
+ }
+
+ .logo{
+ 	float: left;
+
+ }
+
+ .logo h2{
+ 	color: #fff;
+ 	margin-left: 60%;
+ }
+
+ nav{
+ 	float: right;
+ }
+
+ nav ul{
+ 	width: auto;
+ 	overflow: auto;
+ }
+
+ nav ul li{
+ 	display: inline-block;
+ 	list-style: none;
+  	padding: 5px 20px;
+ 	font-size: 24px;
+ 	 }
+ 
+ nav ul li a{
+ 	  color: #fff;
+ 	 text-decoration: none;
+ }
+
+ li:first-child{
+ 	border:1px solid white;
+ }
+
+li:hover{
+	border:1px solid white;
+}
+
+.text{
+	margin-top: 20%;
+}
+
+
+.text h1{
+	color: #fff;
+	text-align: center;
+	font-size: 45px;
+	font-family: monospace;
+}
+
+.buttons{
+	margin-left: 40%;
+	margin-top: 25px;
+}
+
+button{
+	width: 140px;
+	height: 40px;
+	border:1px solid #fff;
+	margin-right: 10px;
+}
+
+button a{
+	text-decoration: none;
+	font-size: 15px;
+	margin:15px;
+	color: black;
+}
+
+.btn1{
+	background: #00a8ff;
+	border:1px solid  #00a8ff;
+
+}
+.btn1 a{
+	color: white;
+}
+
+.btn2:hover{
+	background: #00a8ff;
+	border:1px solid  #00a8ff;
+
+}
+
+
+
